@@ -1,3 +1,11 @@
+'''
+group by year фильтруем через список который отдельно создаём, потом добавляем туда книжки которые совпадают по году
+
+groub by author фильтруем через список который отдельно создаём, потом добавляем туда книжки которые совпадают по автору 
+
+Длеать через for ::: in 
+'''
+
 class Book:
     def __init__(self, name, year, author):
         self.name = name
@@ -44,7 +52,9 @@ class Library:
             if book.author == author:
                 filteredbyautrors.append(book)
         return filteredbyautrors
-
+'''
+group by year фильтруем через список который отдельно создаём, потом добавляем туда книжки которые совпадают по году
+'''
     def group_by_year(self, year: int):
         filteredbyyears = []
         for book in self.books:
