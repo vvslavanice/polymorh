@@ -1,3 +1,6 @@
+''' Володимир поможет чуть-чуть ''' 
+
+
 from fractions import Fraction
 
 x = Fraction(1,2)
