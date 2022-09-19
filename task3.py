@@ -1,6 +1,4 @@
-''' Володимир поможет чуть-чуть ''' 
-
-
+'''
 from fractions import Fraction
 
 x = Fraction(1,2)
@@ -11,18 +9,13 @@ x + y == Fraction(3,4)
 print(x)
 print(y)
 
-class Fraction:
-    def __init__(self):
+Функцую которую я нашёл в поиске альтернатив 
+'''
 
-        def __add__(self, something):
-            return something + (x / y)
+''' 
 
-        def __sub__(self, something):
-            return something - (x/ y)
+Пока ещё решения не будет, не совсем понимаю как его организовать, видел как писали другие, но сам бы я это не написал.
 
-        def __truediv__(self, something):
-            return something / (x/ y)
+Списовать бессмысленно
 
-        def __mul__(self, something):
-            return something * (x/ y)
-
+'''
